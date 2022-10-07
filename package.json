@@ -64,6 +64,7 @@
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
+    "tsx": "^3.10.0",
     "typescript": "^4.7.4",
     "zx": "^7.1.0"
   }
