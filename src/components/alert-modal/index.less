@@ -1,0 +1,71 @@
+.custom-alert-modal {
+  &.ant-modal-confirm {
+    .ant-modal-body {
+      padding: 75px 25px 25px;
+    }
+  }
+
+  .ant-modal-confirm-body
+    > .anticon
+    + .ant-modal-confirm-title
+    + .ant-modal-confirm-content {
+    margin-left: 0;
+    flex: 1;
+  }
+
+  .ant-modal-content {
+    .ant-modal-confirm-body {
+      display: flex;
+
+      .anticon {
+        margin-right: 13px;
+        // font-size: 30px;
+        margin-top: 4px;
+      }
+
+      .ant-modal-confirm-title {
+        position: absolute;
+        top: 25px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+      }
+
+      .ant-modal-confirm-content {
+        margin-top: 0px;
+        width: 100%;
+      }
+    }
+  }
+
+  .ant-modal-title {
+    color: #141414;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+
+    .anticon {
+      margin-top: 4px;
+    }
+  }
+
+  .ant-modal-header {
+    border-bottom: none;
+    padding: 25px 25px 0;
+  }
+
+  .ant-modal-body {
+    padding: 25px;
+  }
+
+  .ant-modal-footer {
+    border-top: none;
+    padding-bottom: 25px;
+    padding-right: 25px;
+  }
+
+  .ant-btn-lg {
+    font-size: 12px;
+    min-width: 100px;
+  }
+}
