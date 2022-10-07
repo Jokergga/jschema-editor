@@ -5,11 +5,11 @@
 ## 示例
 
 ```shell
-npm i @jok/json-schema-editor
+npm i jschema-editor
 ```
 
 ```typescript jsx
-import Editor from '@jok/json-schema-editor';
+import Editor from 'jschema-editor';
 import { useState } from 'react';
 
 export default () => {
