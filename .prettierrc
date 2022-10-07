@@ -1,0 +1,9 @@
+{
+  "singleQuote": true, // 使用单引号
+  "semi": false, // 不使用分号
+  "bracketSpacing": true, // 在对象,数组括号与文字之间加空格 
+  "htmlWhitespaceSensitivity": "ignore", // 对html的空格不敏感
+  "endOfLine": "auto", // 行结尾统一样式，保持现有的行尾
+  "trailingComma": "none", // 对象，数组等末尾不加逗号
+  "tabWidth": 2 //  水平缩进的空格数为2
+}

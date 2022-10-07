@@ -4,7 +4,8 @@
   "description": "[Antd Design](https://ant.design/) 风格的 Json Schema 可视化编辑器。",
   "scripts": {
     "build": "rollup -c --configPlugin @rollup/plugin-typescript",
-    "deploy": "npm run build && npm publish" 
+    "deploy": "npm run build && npm publish",
+    "prepare": "husky install"
   },
   "keywords": [
     "editor",
@@ -17,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jokergga/json-schema-editor.git",
+    "url": "https://github.com/Jokergga/jschema-editor.git",
     "branch": "master"
   },
   "main": "dist/json-schema-editor.cjs.js",
@@ -26,6 +27,14 @@
   "files": [
     "dist"
   ],
+  "lint-staged": {
+    "*.{jsx,less,md,json}": [
+      "prettier --cache --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --cache --parser=typescript --write"
+    ]
+  },
   "peerDependencies": {
     "antd": ">=4.19.5",
     "react": ">=16.12.0"
@@ -45,13 +54,17 @@
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "antd": "^4.19.5",
+    "husky": "^8.0.1",
     "less": "^4.1.3",
+    "lint-staged": "^13.0.3",
     "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
     "react": "^16.12.0",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "zx": "^7.1.0"
   }
 }
