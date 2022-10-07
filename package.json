@@ -13,7 +13,11 @@
     "json schema editor"
   ],
   "author": "jokergga",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jokergga/json-schema-editor.git",
+    "branch": "master"
+  },
   "main": "dist/json-schema-editor.cjs.js",
   "module": "dist/json-schema-editor.esm.js",
   "types": "dist/json-schema-editor.d.ts",

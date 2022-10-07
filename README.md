@@ -5,18 +5,18 @@
 ## 示例
 
 ```shell
-npm i jokergga-editor-components
+npm i @jok/json-schema-editor
 ```
 
 ```typescript jsx
-import JsonSchema from 'jokergga-editor-components/es/JsonSchema';
+import Editor from '@jok/json-schema-editor';
 import { useState } from 'react';
 
 export default () => {
   const [jsonData, setJsonData] = useState({});
 
   return (
-    <JsonSchema
+    <Editor
       mock={true}
       data={jsonData}
       onChange={data => {
@@ -27,7 +27,7 @@ export default () => {
 };
 ```
 
-![示例](./images/example.png)
+![示例](./docs/example.png)
 
 ### TODO
 
