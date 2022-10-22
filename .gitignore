@@ -14,11 +14,10 @@
 # misc
 .DS_Store
 
-# umi
-.umi
-.umi-production
-.umi-test
-.env.local
-
 /es
 /lib
+
+node_modules
+dist
+es
+lib
