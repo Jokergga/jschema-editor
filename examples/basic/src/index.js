@@ -10,3 +10,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// git push -f https://github.com/Jokergga/jschema-editor.git build
