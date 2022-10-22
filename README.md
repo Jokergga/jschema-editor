@@ -1,6 +1,6 @@
-# Json Schema 可视化编辑器（Antd）
+# [Json Schema 可视化编辑器](https://jokergga.github.io/jschema-editor/)
 
-[Antd Design](https://ant.design/) 风格的 Json Schema 可视化编辑器。
+Antd Design 风格的 Json Schema 可视化编辑器。
 
 ## 示例
 
