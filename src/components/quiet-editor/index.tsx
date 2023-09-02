@@ -1,6 +1,10 @@
 import React, { ReactElement } from 'react';
-import Editor, { OnChange } from '@monaco-editor/react';
+import Editor, { OnChange, loader } from '@monaco-editor/react';
 import { xcodeDefault } from './themes';
+import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
+import 'monaco-editor/min/vs/editor/editor.main.css'
+
+loader.config({ monaco })
 
 interface QuietEditorProp {
   width?: string | number;
