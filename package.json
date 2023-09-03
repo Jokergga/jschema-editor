@@ -1,6 +1,6 @@
 {
   "name": "jschema-editor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "[Antd Design](https://ant.design/) 风格的 Json Schema 可视化编辑器。",
   "scripts": {
     "build": "rollup -c --configPlugin @rollup/plugin-typescript",
